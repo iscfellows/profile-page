@@ -1,4 +1,4 @@
-const PROFILE_URL = '/profiles.json'
+const PROFILE_URL = '/profile-page/profiles.json'
 let globalData = {}
 
 function ready(callback){
