@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.iscf-profiles {
+  font-family: "Lato", sans-serif;
+  margin: 50px 0px;
+  width: 100%;
+}
+.iscf-profiles .cohort-div {
+  margin: 150px 0px;
+}
+.iscf-profiles h1.cohort-title {
+  font-size: 4em;
+  font-weight: 100;
+}
+.iscf-profiles h1.cohort-title span.cohort-2020 {
+  font-weight: 700;
+  color: #55b4c0;
+}
+.iscf-profiles h1.cohort-title span.cohort-2019 {
+  font-weight: 700;
+  color: #fba080;
+}
+.iscf-profiles img {
+  width: 100%;
+}
+.iscf-profiles span.title {
+  font-size: 1em;
+  font-weight: 300;
+}
+.iscf-profiles span.university {
+  font-size: 1em;
+  font-weight: 300;
+}
+.iscf-profiles .linkedin_icon {
+  display: block;
+}
+.iscf-profiles .linkedin_icon img {
+  width: 20px;
+}
+.iscf-profiles .row {
+  margin-top: 40px;
+}
+.iscf-profiles .title {
+  text-align: center;
+}
+.iscf-profiles .align-center {
+  text-align: center;
+}
+.iscf-profiles .profile-card {
+  padding-top: 30px;
+}
+.iscf-profiles .profile-card .title {
+  cursor: pointer;
+}
+.iscf-profiles .overlay {
+  background-color: #ffffffee;
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  transition: transform 0.8s ease;
+}
+.iscf-profiles #overlay-profile {
+  position: fixed;
+  overflow-y: scroll;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.iscf-profiles #overlay-profile span {
+  font-size: 1.5em;
+}
+.iscf-profiles #overlay-profile h1 {
+  font-size: 3.5em;
+}
+.iscf-profiles #overlay-profile .col-md-3 {
+  text-align: center;
+}
+.iscf-profiles #overlay-profile .col-md-9 {
+  padding-top: 40px;
+}
+.iscf-profiles #overlay-profile .col-md-9 p {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.iscf-profiles #overlay-profile #profile-img h1.title {
+  font-size: 2.4em;
+}
