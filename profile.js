@@ -20,10 +20,8 @@ function loadProfiles(callback) {
 }
 
 function profileClickEvent(e) {
-    console.log(e)
     let cohort = this.getAttribute('data-cohort')
     let id = this.getAttribute('data-id')
-    console.log(globalData[cohort][id])
 
     let overlay = document.getElementById('overlay')
     overlay.style.top = (e.clientY) + 'px'
