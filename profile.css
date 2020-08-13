@@ -94,3 +94,7 @@ html, body {
 .iscf-profiles #overlay-profile #profile-img h1.title {
   font-size: 2.4em;
 }
+.iscf-profiles #overlay-profile .cross {
+  width: 50px;
+  cursor: pointer;
+}

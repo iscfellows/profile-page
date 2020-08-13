@@ -1,4 +1,4 @@
-const PROFILE_URL = '/profile-page/profiles.json'
+const PROFILE_URL = 'profiles.json'
 let globalData = {}
 
 function ready(callback){
@@ -64,9 +64,10 @@ function fillIndividualProfile(cohort, id) {
 }
 
 function overlayBackgroundClickEvent(e) {
-    if(e.target.id === 'overlay-profile') {
-        e.target.style.display = 'none'
+    if(e.target.classList.value == 'cross' || e.target.id === 'overlay-profile') {
+        let con = document.getElementById('overlay-profile')
         let o = document.getElementById('overlay')
+        con.style.display = 'none'
         o.style.display = 'none'
         o.style.transform = 'scale(1,1)'
         setTimeout(() => {
@@ -126,7 +127,7 @@ function cohortProfile(data, cohort) {
 
     data[cohort].forEach((p, idx) => {
         let col = document.createElement('div')
-        col.className = 'col-md-3 profile-card'
+        col.className = 'col-md-3 col-6 profile-card'
         col
         //col.addEventListener('click', profileClickEvent, false);
 
